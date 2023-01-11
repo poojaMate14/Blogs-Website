@@ -1,0 +1,40 @@
+.blog {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    max-width: 50%;
+    margin-bottom: 50px;
+}
+
+.blog_image {
+    display: block;
+    width: 30%;
+    object-fit: contain;
+    padding-right: 10px;
+    margin-bottom: auto;
+}
+
+.blog_content {
+    display: block;
+}
+
+.blog_title {
+    font-size: xx-large;
+}
+
+.blog_text {
+    white-space: pre-line;
+}
+
+.blog_delete {
+    margin: 10px;
+}
+
+.blog_creator {
+    font-size: small;
+    font-style: italic;
+    margin: 5px;
+    margin-left: 10px;
+}
